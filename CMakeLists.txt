@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_VERBOSE_MAKEFILE ON)
 
 # Ajusta estas rutas según tu layout: asume que ImGui está en extern/imgui con backends.
-add_subdirectory(extern/imgui) # si añadiste ImGui como subdir que define target "imgui"
+# add_subdirectory(extern/imgui) /// si añadiste ImGui como subdir que define target "imgui"
 
 # SDL2 en MSYS2 ya tiene archivo de configuración de CMake
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "/mingw64/lib/cmake/SDL2")
